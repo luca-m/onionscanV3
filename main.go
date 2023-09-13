@@ -3,19 +3,35 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/s-rah/onionscan/config"
-	"github.com/s-rah/onionscan/deanonymization"
-	"github.com/s-rah/onionscan/onionscan"
-	"github.com/s-rah/onionscan/onionscan/steps"
-	"github.com/s-rah/onionscan/report"
-	"github.com/s-rah/onionscan/utils"
-	"github.com/s-rah/onionscan/webui"
+	"./config"
+	"./deanonymization"
+	"./onionscan"
+	"./onionscan/steps"
+	"./report"
+	"./utils"
+	"./webui"
 	"golang.org/x/crypto/ssh/terminal"
 	"io/ioutil"
 	"log"
 	"os"
 	"strings"
 )
+//import (
+//    "flag"
+//    "fmt"
+//    "onionscanV3/config"
+//    "onionscanV3/deanonymization"
+//    "onionscanV3/onionscan"
+//    "onionscanV3/onionscan/steps"
+//    "onionscanV3/report"
+//    "onionscanV3/utils"
+//    "onionscanV3/webui"
+//    "golang.org/x/crypto/ssh/terminal"
+//    "io/ioutil"
+//    "log"
+//    "os"
+//    "strings"
+//)
 
 func main() {
 

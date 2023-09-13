@@ -2,10 +2,10 @@ package deanonymization
 
 import (
 	"fmt"
-	"github.com/s-rah/onionscan/config"
-	"github.com/s-rah/onionscan/model"
-	"github.com/s-rah/onionscan/report"
-	"github.com/s-rah/onionscan/utils"
+	"../config"
+	"../model"
+	"../report"
+	"../utils"
 	"net"
 	"net/url"
 	"regexp"
@@ -52,7 +52,7 @@ func GetOnionLinks(osreport *report.OnionScanReport, anonreport *report.Anonymit
 			}
 
 			// FIXME: This can be smarter
-			onionregex := regexp.MustCompile(`[a-z2-7]{16}\.onion`)
+			onionregex := regexp.MustCompile(`[a-z2-7]{56}\.onion`)
 			foundOnions := onionregex.FindAllString(crawlRecord.Page.Snapshot, -1)
 
 			for _, host := range foundOnions {
