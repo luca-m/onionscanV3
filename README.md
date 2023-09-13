@@ -1,3 +1,15 @@
+
+# TL;DR
+
+new build procedure:
+```
+GO111MODULE=off go build -o ./onionscanV3
+```
+
+See release page for binaries.
+
+# Legacy Readme 
+
 # What is OnionScan?
 
 
