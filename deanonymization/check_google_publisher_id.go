@@ -1,10 +1,11 @@
 package deanonymization
 
 import (
-	"../config"
-	"../report"
+	"onionscanV3/config"
 	"regexp"
 	"strings"
+
+	"onionscanV3/report"
 )
 
 // ExtractGooglePublisherID extract Google publisher ids, used for adsense marketing

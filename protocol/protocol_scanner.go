@@ -1,8 +1,8 @@
 package protocol
 
 import (
-	"../config"
-	"../report"
+	"onionscanV3/config"
+	"onionscanV3/report"
 )
 
 type Scanner interface {

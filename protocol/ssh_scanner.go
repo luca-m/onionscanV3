@@ -5,11 +5,13 @@ import (
 	"crypto/md5"
 	"errors"
 	"fmt"
-	"../config"
-	"../report"
-	"../utils"
-	"golang.org/x/crypto/ssh"
 	"net"
+	"onionscanV3/config"
+	"onionscanV3/report"
+
+	"onionscanV3/utils"
+
+	"golang.org/x/crypto/ssh"
 )
 
 type SSHProtocolScanner struct {

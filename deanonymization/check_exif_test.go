@@ -1,11 +1,12 @@
 package deanonymization
 
 import (
-	"../report"
-	"../utils"
 	"io/ioutil"
+	"onionscanV3/report"
 	"strings"
 	"testing"
+
+	"onionscanV3/utils"
 )
 
 var truncatedJpeg = []byte{

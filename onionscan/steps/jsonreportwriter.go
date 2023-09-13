@@ -3,10 +3,11 @@ package steps
 import (
 	"bytes"
 	"fmt"
-	"../../report"
 	"log"
 	"os"
 	"time"
+
+	"onionscanV3/report"
 )
 
 // JSONReportWriter is a sink Pipeline step used to output a JSON formated

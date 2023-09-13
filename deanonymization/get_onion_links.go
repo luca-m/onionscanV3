@@ -2,14 +2,15 @@ package deanonymization
 
 import (
 	"fmt"
-	"../config"
-	"../model"
-	"../report"
-	"../utils"
 	"net"
 	"net/url"
+	"onionscanV3/config"
+	"onionscanV3/model"
+	"onionscanV3/utils"
 	"regexp"
 	"strings"
+
+	"onionscanV3/report"
 )
 
 // GetOnionLinks extracts links and urls from the current crawl

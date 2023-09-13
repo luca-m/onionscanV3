@@ -2,12 +2,13 @@ package spider
 
 import (
 	"bytes"
-	"../model"
-	"../utils"
-	"golang.org/x/net/html"
 	"io"
 	"net/url"
+	"onionscanV3/model"
+	"onionscanV3/utils"
 	"strings"
+
+	"golang.org/x/net/html"
 )
 
 func NormalizeURI(uri string, base *url.URL) string {

@@ -2,8 +2,8 @@ package steps
 
 import (
 	"fmt"
-	"../../report"
 	"log"
+	"onionscanV3/report"
 	"os"
 	"time"
 )
