@@ -3,19 +3,21 @@ package main
 import (
 	"flag"
 	"fmt"
-	"./config"
-	"./deanonymization"
-	"./onionscan"
-	"./onionscan/steps"
-	"./report"
-	"./utils"
-	"./webui"
-	"golang.org/x/crypto/ssh/terminal"
 	"io/ioutil"
 	"log"
+	"onionscanV3/config"
+	"onionscanV3/deanonymization"
+	"onionscanV3/onionscan"
+	"onionscanV3/onionscan/steps"
+	"onionscanV3/report"
+	"onionscanV3/utils"
+	"onionscanV3/webui"
 	"os"
 	"strings"
+
+	"golang.org/x/crypto/ssh/terminal"
 )
+
 //import (
 //    "flag"
 //    "fmt"

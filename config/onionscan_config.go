@@ -3,9 +3,9 @@ package config
 import (
 	"bufio"
 	"fmt"
-	"../crawldb"
 	"log"
 	"net/http"
+	"onionscanV3/crawldb"
 	"os"
 	"path/filepath"
 	"strings"

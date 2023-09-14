@@ -2,11 +2,12 @@ package protocol
 
 import (
 	"fmt"
-	"../config"
-	"../report"
-	"../spider"
-	"../utils"
 	"net/http"
+	"onionscanV3/config"
+	"onionscanV3/report"
+	"onionscanV3/spider"
+
+	"onionscanV3/utils"
 )
 
 type HTTPProtocolScanner struct {

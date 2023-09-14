@@ -1,12 +1,12 @@
 package deanonymization
 
 import (
-	"../config"
-	"../crawldb"
-	"../model"
-	"../report"
 	"io/ioutil"
 	"net/http"
+	"onionscanV3/config"
+	"onionscanV3/crawldb"
+	"onionscanV3/model"
+	"onionscanV3/report"
 	"os"
 	"testing"
 )

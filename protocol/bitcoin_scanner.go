@@ -6,14 +6,15 @@ import (
 	"encoding/base32"
 	"encoding/binary"
 	"fmt"
-	"../config"
-	"../report"
-	"../utils"
 	"io"
 	"net"
+	"onionscanV3/config"
 	"regexp"
 	"strings"
 	"time"
+
+	"onionscanV3/report"
+	"onionscanV3/utils"
 )
 
 type BitcoinProtocolScanner struct {

@@ -3,8 +3,8 @@ package onionscan
 import (
 	"errors"
 	"fmt"
-	"../report"
-	"../utils"
+	"onionscanV3/report"
+	"onionscanV3/utils"
 	"strings"
 )
 

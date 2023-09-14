@@ -2,10 +2,11 @@ package onionscan
 
 import (
 	"fmt"
-	"../config"
-	"../protocol"
-	"../report"
+	"onionscanV3/config"
+	"onionscanV3/protocol"
 	"time"
+
+	"onionscanV3/report"
 )
 
 // OnionScan runs the main procol level scans

@@ -3,12 +3,12 @@ package webui
 import (
 	"errors"
 	"fmt"
-	"../config"
-	"../crawldb"
-	"../utils"
 	"html/template"
 	"log"
 	"net/http"
+	"onionscanV3/config"
+	"onionscanV3/crawldb"
+	"onionscanV3/utils"
 	"strconv"
 	"strings"
 )

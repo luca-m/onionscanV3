@@ -2,10 +2,11 @@ package deanonymization
 
 import (
 	"fmt"
-	"../config"
-	"../report"
+	"onionscanV3/config"
 	"regexp"
 	"strings"
+
+	"onionscanV3/report"
 )
 
 // GetUserDefinedRelationships extracts any user configured relationships from

@@ -1,10 +1,11 @@
 package deanonymization
 
 import (
-	"../config"
-	"../report"
+	"onionscanV3/config"
 	"regexp"
 	"strings"
+
+	"onionscanV3/report"
 )
 
 // ExtractGoogleAnalyticsID extracts any Google analytics IDs e.g. UA-32423-7564

@@ -1,9 +1,10 @@
 package deanonymization
 
 import (
-	"../config"
-	"../report"
+	"onionscanV3/config"
 	"strings"
+
+	"onionscanV3/report"
 )
 
 // MailtoScan Extracts any email addresses linked via mailto targets.

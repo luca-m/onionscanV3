@@ -1,10 +1,11 @@
 package deanonymization
 
 import (
-	"../config"
-	"../report"
 	"net/url"
+	"onionscanV3/config"
 	"strings"
+
+	"onionscanV3/report"
 )
 
 // CheckExposedDirectories makes note of any directories which display a directory listing

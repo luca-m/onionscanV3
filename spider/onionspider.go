@@ -3,14 +3,15 @@ package spider
 import (
 	"crypto/tls"
 	"fmt"
-	"../config"
-	"../model"
-	"../report"
-	"golang.org/x/net/proxy"
 	"net/http"
 	"net/http/cookiejar"
 	"net/url"
+	"onionscanV3/config"
+	"onionscanV3/model"
+	"onionscanV3/report"
 	"strings"
+
+	"golang.org/x/net/proxy"
 )
 
 type OnionSpider struct {

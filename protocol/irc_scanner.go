@@ -2,9 +2,10 @@ package protocol
 
 import (
 	"fmt"
-	"../config"
-	"../report"
-	"../utils"
+	"onionscanV3/config"
+	"onionscanV3/report"
+
+	"onionscanV3/utils"
 )
 
 type IRCProtocolScanner struct {

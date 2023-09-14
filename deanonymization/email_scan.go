@@ -1,10 +1,11 @@
 package deanonymization
 
 import (
-	"../config"
-	"../report"
+	"onionscanV3/config"
 	"regexp"
 	"strings"
+
+	"onionscanV3/report"
 )
 
 // EmailScan extracts anything which resembles an email address from the current crawl.
